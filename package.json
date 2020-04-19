@@ -1,18 +1,12 @@
 {
-  "name": "react-table-poc",
+  "name": "react-table-typescript",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "@types/jest": "^24.9.1",
-    "@types/node": "^12.12.36",
-    "@types/react": "^16.9.34",
-    "@types/react-dom": "^16.9.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "react-table": "^7.0.4",
     "typescript": "^3.7.5"
   },
   "scripts": {
@@ -35,5 +29,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.12.36",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
+    "@types/react-table": "^7.0.16",
+    "node-sass": "^4.13.1"
   }
 }

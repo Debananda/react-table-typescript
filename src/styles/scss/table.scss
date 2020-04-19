@@ -1,0 +1,47 @@
+.table {
+  border-spacing: 0;
+  border: 1px solid black;
+
+  tr {
+    :last-child {
+      td {
+        border-bottom: 0;
+      }
+    }
+  }
+  .table-header-group {
+    .table-header {
+      .table-header-cell {
+        margin: 0;
+        padding: 0.5rem;
+        border-bottom: 1px solid black;
+        border-right: 1px solid black;
+
+        &:last-child {
+          border-right: 0;
+        }
+      }
+    }
+  }
+  .table-body {
+    overflow-y: auto;
+    overflow-x: hidden;
+    overflow: overlay;
+    height: 25rem;
+    .table-row {
+      &:last-child {
+        border-bottom: 0;
+      }
+      .table-row-cell {
+        margin: 0;
+        padding: 0.5rem;
+        border-bottom: 1px solid black;
+        border-right: 1px solid black;
+
+        :last-child {
+          border-right: 0;
+        }
+      }
+    }
+  }
+}
